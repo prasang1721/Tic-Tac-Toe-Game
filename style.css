@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+#gameheading{
+    font-size: 5rem;
+    font-style: italic;
+    color: #f8da45;
+    background-color: #b0413e;
+    border: 2px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap; /*line by line boxes ko lgane ke liye use krte hai*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    border: 5px solid black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+.box:hover{
+    background-color: #a3a389;
+}
+.reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: 1px solid rgb(167, 168, 162);
+}
+
+.reset-btn:hover{
+    background-color: rgb(246, 223, 95);
+    color: black;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: 2px solid rgb(167, 168, 162);
+    margin-top: 2%;
+}
+
+#new-btn:hover{
+    background-color: rgb(246, 223, 95);
+    color: black;
+}
+#msg{
+    color: #ffffff;
+    font-size: 8vmin;
+    /* background-color: #1c1c0c; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.msg-container{
+    margin-top: 2%;
+}
+.hide{
+    display: none;
+}
